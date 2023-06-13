@@ -708,9 +708,10 @@ public:
 				return;
 			}
 			drawit = false;
-			fill =  outlinecolor;
-			outline = outlinecolor;
-			text = textcolor;
+			fill =  disablecolorfill;
+			outline = disablecolortext;
+			text = textcolor;	
+			
 		}
 
 		if (newcorner){
